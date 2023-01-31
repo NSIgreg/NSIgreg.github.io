@@ -95,7 +95,10 @@ header{
 .rouge{color: red;}
 .noir{margin: 10px;}
 .noir a{ color: black;}
-.bord_arondis{border-radius:10px;}
+.bord_arondis{
+    border-radius:10px;
+    border:2px solid rgb(0, 0, 0);
+}
 .text{
     text-align:left;
     margin : 10px;
